@@ -616,7 +616,7 @@
 <script src="/js/common.js"></script>
 
 <script>
-  let skus = [{"id":27359021560,"spuId":141,"title":"小米 MI 6.1 手机   陶瓷黑尊享版 6GB 128GB","images":"http://image.leyou.com/images/10/7/1524297598540.jpg","price":309900,"specialSpec":"{\"4\":\"陶瓷黑尊享版\",\"12\":\"6GB\",\"13\":\"128GB\"}","indexes":"0_0_0","saleable":true,"stock":10000,"sold":53},{"id":27359021561,"spuId":141,"title":"小米 MI 6.1 手机   亮蓝色 6GB 128GB","images":"http://image.leyou.com/images/15/5/1524297599029.jpg","price":309900,"specialSpec":"{\"4\":\"亮蓝色\",\"12\":\"6GB\",\"13\":\"128GB\"}","indexes":"1_0_0","saleable":true,"stock":10000,"sold":141},{"id":27359021562,"spuId":141,"title":"小米 MI 6.1 手机   亮黑色 6GB 128GB","images":"http://image.leyou.com/images/12/13/1524297599389.jpg","price":279900,"specialSpec":"{\"4\":\"亮黑色\",\"12\":\"6GB\",\"13\":\"128GB\"}","indexes":"2_0_0","saleable":true,"stock":10000,"sold":103},{"id":27359021563,"spuId":141,"title":"小米 MI 6.1 手机   亮白色 6GB 128GB","images":"http://image.leyou.com/images/13/3/1524297599775.jpg","price":289900,"specialSpec":"{\"4\":\"亮白色\",\"12\":\"6GB\",\"13\":\"128GB\"}","indexes":"3_0_0","saleable":true,"stock":10000,"sold":488}];
+  let skus = [{"id":27359021560,"spuId":141,"title":"小米 MI 6.1 手机   陶瓷黑尊享版 6GB 128GB","images":"http://image.wl9939.top/images/10/7/1524297598540.jpg","price":309900,"specialSpec":"{\"4\":\"陶瓷黑尊享版\",\"12\":\"6GB\",\"13\":\"128GB\"}","indexes":"0_0_0","saleable":true,"stock":10000,"sold":53},{"id":27359021561,"spuId":141,"title":"小米 MI 6.1 手机   亮蓝色 6GB 128GB","images":"http://image.wl9939.top/images/15/5/1524297599029.jpg","price":309900,"specialSpec":"{\"4\":\"亮蓝色\",\"12\":\"6GB\",\"13\":\"128GB\"}","indexes":"1_0_0","saleable":true,"stock":10000,"sold":141},{"id":27359021562,"spuId":141,"title":"小米 MI 6.1 手机   亮黑色 6GB 128GB","images":"http://image.wl9939.top/images/12/13/1524297599389.jpg","price":279900,"specialSpec":"{\"4\":\"亮黑色\",\"12\":\"6GB\",\"13\":\"128GB\"}","indexes":"2_0_0","saleable":true,"stock":10000,"sold":103},{"id":27359021563,"spuId":141,"title":"小米 MI 6.1 手机   亮白色 6GB 128GB","images":"http://image.wl9939.top/images/13/3/1524297599775.jpg","price":289900,"specialSpec":"{\"4\":\"亮白色\",\"12\":\"6GB\",\"13\":\"128GB\"}","indexes":"3_0_0","saleable":true,"stock":10000,"sold":488}];
   const itemVm = new Vue({
     el: "#itemApp",
     data: {
@@ -728,7 +728,7 @@
           // 已登录
           ly.http.post("/trade/cart", cartItem).then(() => {
             // 跳转到购物车列表页
-            window.location.href = "http://www.leyou.com/cart.html";
+            window.location.href = "http://www.wl9939.top/cart.html";
           }).catch(() => {
             alert("添加购物车失败，请重试！");
           })
@@ -748,7 +748,7 @@
           // 未登录
           ly.store.set("carts", carts);
           // 跳转到购物车列表页
-          window.location.href = "http://www.leyou.com/cart.html";
+          window.location.href = "http://www.wl9939.top/cart.html";
         })
       },
     },

@@ -511,7 +511,7 @@ const stringify = function(object, options) {
     return values.join("&");
 }
 
-axios.defaults.baseURL = "http://api.leyou.com";
+axios.defaults.baseURL = "http://api.wl9939.top";
 axios.defaults.timeout = 5000;
 axios.defaults.withCredentials = true
 
